@@ -20,8 +20,6 @@ import javax.servlet.http.HttpServletResponse;
 public class TabelaValores extends HttpServlet {
 
     double valor = 1000;
-    double rendimento;
-    double ano = valor * (1 + 12 * 0.01);
     int numeroMeses;
     double taxaJuros;
 
